@@ -1,0 +1,17 @@
+- *Open game.py*
+
+- Collisions demo
+    - 2 sprite groups, 4 colliding
+
+- Checking for collisions
+    - Every loop, pygame.sprite.groupcollide, arguments
+    - returns dict, will learn in experiments, print statements explain usage
+    - Uses rects, not perfect, other shapes, other pairings, docs
+
+- Experiments:
+    - Take code from before make collisions work, just do it in directory 4, easier
+    - If 2 Stars collide, let them coallescse into 1
+    - If you shoot a star, let it break apart if it's big, or disappear if it's very small
+    - If you collide with a star, do something else
+
+- Show off what you've achieved!
